@@ -211,7 +211,7 @@
                 "name": "davinci-instruct",
                 "model": {
                   "format": "OpenAI",
-                  "name": "gpt-35-turbo",
+                  "name": "davinci-002",
                   "version": "1"
                 },
                 "scaleSettings": {

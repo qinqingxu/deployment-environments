@@ -91,7 +91,7 @@
     },
     "gptModelName": {
       "type": "string",
-      "defaultValue": "gpt-35-turbo"
+      "defaultValue": "davinci-002"
     },
     "chatGptDeploymentName": {
       "type": "string",
@@ -623,7 +623,7 @@
                 "model": {
                   "format": "OpenAI",
                   "name": "[parameters('gptModelName')]",
-                  "version": "1106"
+                  "version": "1"
                 },
                 "scaleSettings": {
                   "scaleType": "Standard"

@@ -30,7 +30,7 @@ param formRecognizerResourceGroupLocation string = location
 param formRecognizerSkuName string = 'S0'
 
 param gptDeploymentName string = 'davinci'
-param gptModelName string = 'gpt-35-turbo'
+param gptModelName string = 'davinci-002'
 param chatGptDeploymentName string = 'chat'
 param chatGptModelName string = 'gpt-35-turbo'
 
@@ -95,7 +95,7 @@ module openAi 'core/ai/cognitiveservices.bicep' = {
         model: {
           format: 'OpenAI'
           name: gptModelName
-          version: '1106'
+          version: '1'
         }
         scaleSettings: {
           scaleType: 'Standard'
