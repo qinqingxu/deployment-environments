@@ -623,7 +623,7 @@
                 "model": {
                   "format": "OpenAI",
                   "name": "[parameters('gptModelName')]",
-                  "version": "1"
+                  "version": "1106"
                 },
                 "scaleSettings": {
                   "scaleType": "Standard"
@@ -634,7 +634,7 @@
                 "model": {
                   "format": "OpenAI",
                   "name": "[parameters('chatGptModelName')]",
-                  "version": "0301"
+                  "version": "1106"
                 },
                 "scaleSettings": {
                   "scaleType": "Standard"

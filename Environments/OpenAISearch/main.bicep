@@ -95,7 +95,7 @@ module openAi 'core/ai/cognitiveservices.bicep' = {
         model: {
           format: 'OpenAI'
           name: gptModelName
-          version: '1'
+          version: '1106'
         }
         scaleSettings: {
           scaleType: 'Standard'
@@ -106,7 +106,7 @@ module openAi 'core/ai/cognitiveservices.bicep' = {
         model: {
           format: 'OpenAI'
           name: chatGptModelName
-          version: '0301'
+          version: '1106'
         }
         scaleSettings: {
           scaleType: 'Standard'
