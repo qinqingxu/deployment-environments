@@ -29,7 +29,7 @@ module openAiAccount 'core/ai/openai-account.bicep' = {
         name: 'davinci-instruct'
         model: {
           format: 'OpenAI'
-          name: 'text-davinci-001'
+          name: 'gpt-35-turbo'
           version: '1'
         }
         scaleSettings: {

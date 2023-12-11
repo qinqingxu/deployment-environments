@@ -30,7 +30,7 @@ param formRecognizerResourceGroupLocation string = location
 param formRecognizerSkuName string = 'S0'
 
 param gptDeploymentName string = 'davinci'
-param gptModelName string = 'text-davinci-003'
+param gptModelName string = 'gpt-35-turbo'
 param chatGptDeploymentName string = 'chat'
 param chatGptModelName string = 'gpt-35-turbo'
 

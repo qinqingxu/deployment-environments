@@ -91,7 +91,7 @@
     },
     "gptModelName": {
       "type": "string",
-      "defaultValue": "text-davinci-003"
+      "defaultValue": "gpt-35-turbo"
     },
     "chatGptDeploymentName": {
       "type": "string",
